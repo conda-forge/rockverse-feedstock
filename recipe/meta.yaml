@@ -42,7 +42,7 @@ requirements:
     - pip
     - pydata-sphinx-theme
     - scipy <=1.13.1
-    - sphinx
+    - sphinx <8.2
     - sphinx-copybutton
     - sphinx-design
     - sphinx-gallery
