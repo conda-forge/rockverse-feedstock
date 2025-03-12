@@ -23,6 +23,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<3.13
+    - docutils >=0.17
     - ipympl
     - ipython
     - ipyparallel
@@ -31,10 +32,12 @@ requirements:
     - jupyterlab
     - matplotlib-base <3.10
     - mpi4py
+    - myst-parser
     - nbsphinx
     - numba
     - numpy
     - pandas
+    - pandoc
     - pip
     - pydata-sphinx-theme
     - scipy <=1.13.1
@@ -43,7 +46,7 @@ requirements:
     - sphinx-design
     - sphinx-gallery
     - tqdm
-    - zarr <3
+    - zarr >=3,<4
 
 test:
   imports:
