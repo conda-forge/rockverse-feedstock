@@ -21,6 +21,7 @@ requirements:
     - setuptools >=61.0
     - setuptools-scm
     - pip
+    - pandoc
   run:
     - python >={{ python_min }},<3.13
     - docutils >=0.17
