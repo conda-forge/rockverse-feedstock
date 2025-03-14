@@ -1,5 +1,5 @@
 {% set name = "rockverse" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rockverse-{{ version }}.tar.gz
-  sha256: 21e63d8f488b85c77cca2e752b04b5025e4176d27e923a48c716a33b222d467e
+  sha256: 5804cedee2eb6afd09a56f0ba5de5248c437513a6e495ce40c386e942da516b6
 
 build:
   noarch: python
@@ -21,7 +21,6 @@ requirements:
     - setuptools >=61.0
     - setuptools-scm
     - pip
-    - pandoc
   run:
     - python >={{ python_min }},<3.13
     - docutils >=0.17
