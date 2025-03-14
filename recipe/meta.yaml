@@ -63,7 +63,7 @@ about:
   dev_url: https://github.com/rodolfovictor/rockverse
   summary: Python tools for Computational Petrophysics
   license: MIT
-  license_file: LICENSE
+  license_file: LICENSE.md
 
 extra:
   recipe-maintainers:
