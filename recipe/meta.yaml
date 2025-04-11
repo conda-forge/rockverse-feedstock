@@ -31,7 +31,7 @@ requirements:
     - jupyter
     - jupyterlab
     - jupyter_contrib_nbextensions
-    - matplotlib-base <3.10
+    - matplotlib-base >=3.10
     - mpi4py
     - myst-parser
     - nbsphinx
