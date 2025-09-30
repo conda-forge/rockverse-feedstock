@@ -1,5 +1,5 @@
 {% set name = "rockverse" %}
-{% set version = "1.1.2" %}
+{% set version = "1.2.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rockverse-{{ version }}.tar.gz
-  sha256: fd20770b304c3c778f1ad5da2632cbcc32b40e2df5675c96c0a415cc5584b4be
+  sha256: 4b029e1498e8ce0592dd84f3b33fec3efdd195ca4f40fe3e4fe58703e588f5f5
 
 build:
   noarch: python
