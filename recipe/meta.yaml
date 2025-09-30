@@ -24,6 +24,7 @@ requirements:
   run:
     - python >={{ python_min }},<3.13
     - docutils >=0.17
+    - h5py
     - ipympl
     - ipython
     - ipyparallel
@@ -41,11 +42,14 @@ requirements:
     - pandoc
     - pip
     - pydata-sphinx-theme
+    - rich[jupyter]
     - scipy <=1.13.1
+    - segyio
     - sphinx <8.2
     - sphinx-copybutton
     - sphinx-design
     - sphinx-gallery
+    - sphinx-graphml
     - tqdm
     - zarr >=3,<4
 
